@@ -1,4 +1,4 @@
-# IBM Data Science Capstone Project
+# SpaceX Rocket Analysis Project
 
 This is final Capstone project for IBM Data Science Professional Certificate.
 
