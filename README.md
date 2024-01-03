@@ -60,20 +60,25 @@ In this part, I build the interactive dashboard for my team to see which sites a
 ![dashboard_for_plot](https://github.com/Kolinhtetwin/SpaceX_Rocket_Analysis/blob/318cb2a2ab01334676399d162b5ab83491bfc730/photo/All%20Launch%20Site%20dashboard.png)
 
 ### Machine Learning Prediction
-In this step, I create a machine learning to predict if the first stage will land given the data from the preceding labs. [Machine Learning](https://github.com/Kolinhtetwin/IBM-DataScience-Capstone/blob/3d6bc14f6688ee07d0407c1282e3f7099e21d928/Machine%20Learning.ipynb)
+In this step, I create a machine learning to predict if the first stage will land given the data from the preceding labs. For machine learning, the four models produce relatively similar result due to relatively small dataset. In four of them, the decision tree model has lowest test accuracy. [Machine Learning](https://github.com/Kolinhtetwin/IBM-DataScience-Capstone/blob/3d6bc14f6688ee07d0407c1282e3f7099e21d928/Machine%20Learning.ipynb)
+
+![Machine_learning_model](https://github.com/Kolinhtetwin/SpaceX_Rocket_Analysis/blob/a13feff5017df8912364687d6c099cd2741c6be8/photo/machine_learning%20model.png)
 
 ## Result <a name= "result"></a>
 SpaceX uses four different launch sites which are all near the coast line. The launch sites are near the railway and highway that makes it easier for transporation but far away from the city which make a safe environment.
+
 ![Distance between landmarks and launch site](https://github.com/Kolinhtetwin/SpaceX_Rocket_Analysis/blob/a13feff5017df8912364687d6c099cd2741c6be8/photo/Distance%20between%20landmarks%20and%20launch%20site.png)
+
 The successful rate for landing has been increased steadily from 2013 and get the highest success rate at 2019, reaching 90%. The first successful landing in ground pad was achieved at 2015. As the time increases, the success rate for landing has been increased which means SpaceX has been improving their landing from time to time. 
+
 ![Success_rate_accross the year](https://github.com/Kolinhtetwin/SpaceX_Rocket_Analysis/blob/a13feff5017df8912364687d6c099cd2741c6be8/photo/success_rate_accross%20the%20year.png)
 
 Mission Outcome for F9 version is incredible with almost 100%. In terms of four different launch sites, KSC LC-39A has the highest success rate with 41.7%.
 Also KSC LC-39C has 100 percentage success rate for low payload mass between 0kg and 5000 kg.
 Interestingly, for high payload mass between 5000kg and 10000kg, it didn’t have achieved no success at all.
-For machine learning, the four models produce relatively similar result due to relatively small dataset. In four of them, the decision tree model has lowest test accuracy. For using the model, I choose Logistic Regression to predict the successful landings because it never miss the successful landing and can increase profit by reusing the first stage again.
+For using the model, I choose Logistic Regression to predict the successful landings because it never miss the successful landing and can increase profit by reusing the first stage again.
 
-![Machine_learning_model](https://github.com/Kolinhtetwin/SpaceX_Rocket_Analysis/blob/a13feff5017df8912364687d6c099cd2741c6be8/photo/machine_learning%20model.png)
+![Confusion_matrix_of_logistic_regression](https://github.com/Kolinhtetwin/SpaceX_Rocket_Analysis/blob/d48b404198c21f515fbe4739045bdbedcff314b3/photo/confusion%20matrix%20of%20logistics%20regression.png)
 
 ## Author <a name="author"></a>
 Lin Htet Win
