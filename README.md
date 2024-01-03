@@ -36,6 +36,7 @@ Programming Language
 ### Data collection with api 
   In this stage, I collected the data from the API provided by SpaceX REST API. The data from API only give you the id version and I apply the function to get the information I want. You can check the code inside this link. [Data collection with api](https://github.com/Kolinhtetwin/IBM-DataScience-Capstone/blob/3d6bc14f6688ee07d0407c1282e3f7099e21d928/Data%20collection%20with%20api.ipynb)
 
+
 ### Data wrangling
 In this part, I try to understand the features and label of the dataset and determine what would be the feature for training the supervised models. In the dataset, there are serveral cases where the booster did not land successfully. Sometimes, a landing was attempted but failed due to an accident. In this part, I convert these outcomes into Training labels with 0(which means fail) and 1(which means successful landing).
 [Data wrangling](https://github.com/Kolinhtetwin/IBM-DataScience-Capstone/blob/3d6bc14f6688ee07d0407c1282e3f7099e21d928/Data%20collection%20with%20api.ipynb)
@@ -53,6 +54,7 @@ In this part, I find some geographical patterns about launch sites.[Folium Map](
 
 ###  Launch Sites Analysis with ploty dash
 In this part, I build the interactive dashboard for my team to see which sites and payload mass has affected the success rate. [Plotly dash](https://github.com/Kolinhtetwin/IBM-DataScience-Capstone/blob/3d6bc14f6688ee07d0407c1282e3f7099e21d928/spacex_dash_app.py)
+![dashboard_for_plot](photo/All Launch Site dashboard.png)
 
 ### Machine Learning Prediction
 In this step, I create a machine learning to predict if the first stage will land given the data from the preceding labs. [Machine Learning](https://github.com/Kolinhtetwin/IBM-DataScience-Capstone/blob/3d6bc14f6688ee07d0407c1282e3f7099e21d928/Machine%20Learning.ipynb)
